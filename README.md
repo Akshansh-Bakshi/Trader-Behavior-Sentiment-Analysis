@@ -130,9 +130,52 @@ The project includes:
 
 ---
 
-## Results
+## Key Findings
 
-Key findings and statistical results are documented within the notebook along with supporting visualizations and interpretations.
+### 1. Market Sentiment Significantly Impacts Profitability
+
+A Kruskal-Wallis statistical test was performed to determine whether trader profitability differs across sentiment categories.
+
+- Test Statistic: 1226.99
+- P-Value: 2.24 × 10⁻²⁶⁴
+
+The extremely small p-value indicates a highly significant relationship between market sentiment and trader profitability.
+
+---
+
+### 2. Highest Win Rate Occurred During Extreme Greed
+
+Win Rates by Sentiment:
+
+| Sentiment | Win Rate (%) |
+|------------|-------------|
+| Extreme Fear | 37.06 |
+| Greed | 38.48 |
+| Neutral | 39.70 |
+| Fear | 42.08 |
+| Extreme Greed | 46.49 |
+
+Traders achieved their highest win rates during Extreme Greed market conditions.
+
+---
+
+### 3. Trading Behavior Changes Across Market Regimes
+
+The distribution of trades varied substantially across Fear, Neutral, Greed, and Extreme Greed periods, indicating that market sentiment influences trader participation and decision-making.
+
+---
+
+### 4. Top Traders Generated Significant Profits
+
+The highest-performing trader generated over $2.14 million in cumulative profit.
+
+Several traders consistently produced substantial profits across thousands of trades, demonstrating varying levels of trading effectiveness and risk management.
+
+---
+
+### 5. Sentiment Can Be Used as a Trading Signal
+
+The analysis suggests that market sentiment is not merely descriptive but may provide useful information regarding trading performance, trader activity, and market participation patterns.
 
 ---
 
